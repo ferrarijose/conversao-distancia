@@ -16,8 +16,8 @@ docker build -t ferrarijose/conversao-distancia:v1 .
 
 Utilizando o comando docker build com o parâmetro -t para configurar o nome da imagem a ser criada
 
-Para testar a imagem criada, usamos o comando:
+# Para testar a imagem criada, usamos o comando:
 docker container run -d --name conversao-distancia -p 5000:5000 ferrarijose/conversao-distancia:v1
 
-Para acessar a aplicação é deverá usar a porta da aplicação 5000
+# Para acessar a aplicação é deverá usar a porta da aplicação 5000
 http://localhost:5000
